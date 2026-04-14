@@ -201,7 +201,7 @@ omnexa_register_integration_hub = [
 
 # Request Events
 # ----------------
-# before_request = ["omnexa_einvoice.utils.before_request"]
+before_request = ["omnexa_einvoice.license_gate.before_request"]
 # after_request = ["omnexa_einvoice.utils.after_request"]
 
 # Job Events
